@@ -1,3 +1,4 @@
+workspace = { members = ["examples/window_instantiation"] }
 [package]
 name = "render_from_pixels"
 description = "toy library for CPU bound graphical rendering. Not practical made to exercise Rust"
@@ -13,3 +14,4 @@ pixels = "0.13.0"
 # Palette to simplify colour management and simplify colour space conversions
 palette = "0.7.5"
 num-traits = "0.2.18"
+winit = { version = "0.29.10", features = ["rwh_05"] }

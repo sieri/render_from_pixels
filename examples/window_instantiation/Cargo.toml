@@ -1,0 +1,10 @@
+[package]
+name = "window_instantiation"
+version = "0.1.0"
+edition = "2021"
+description = "Example showing a window instantiation with a simple application that paint pixels in red when clicked"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+render_from_pixels= {path = "../.."}
